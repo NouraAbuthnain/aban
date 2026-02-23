@@ -1,0 +1,57 @@
+# ---------- FLUTTER PACKAGE METADATA ----------
+# ---------- FLUTTER PACKAGE NAME ----------
+name: aban_demo_app
+
+# ---------- SHORT DESCRIPTION ----------
+description: "Overcoming Language Barriers in Khutbahs"
+
+# ---------- PREVENT PUB DEV PUBLISHING ----------
+publish_to: 'none'
+
+# ---------- APP VERSION (major.minor.patch+build)----------
+version: 1.0.0+1
+
+# ---------- DART SDK CONSTRAINTS ----------
+environment:
+  sdk: ^3.11.0
+
+# ---------- RUNTIME DEPENDENCIES ----------
+dependencies:
+  flutter:
+    sdk: flutter
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+
+  get: ^4.6.1
+
+# ---------- DEVELOPMENT and TESTING DEPENDENCIES ----------
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# ---------- FLUTTER SPECIFIC SETTINGS ----------
+flutter:
+  uses-material-design: true
+
+  # LOCAL ASSETS
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+
+  # LOCAL FONTS
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
+    
