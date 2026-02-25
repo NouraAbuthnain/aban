@@ -12,7 +12,7 @@ class TColors {
   // Gradient Colors
   static const Gradient linearGradient = LinearGradient(
     begin: Alignment.topCenter,
-  end: Alignment.bottomCenter,
+    end: Alignment.bottomCenter,
     colors: [Color(0xFF043C40), Color(0xFF1C1F21)],
   );
 
