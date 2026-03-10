@@ -1,6 +1,6 @@
 # aban_demo_app
 
-A new Flutter project.
+Aban is  a real-time translation system that translates Arabic Khutbahs (Friday Sermons) into widely spoken languages among expatriates in Saudi Arabia
 
 ## Getting Started
 
